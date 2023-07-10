@@ -1,0 +1,54 @@
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 30px auto auto;
+}
+
+.link {
+  width: 120px;
+  height: 56px;
+
+  font-size: 12px;
+  margin: 20px auto auto;
+}
+
+.choice_cont {
+  width: 451px;
+  height: 38px;
+
+  margin: 20px auto auto;
+  font-size: 12px;
+  justify-content: space-around;
+}
+
+.name {
+  width: 120px;
+  text-align: left;
+}
+
+.options {
+  gap: 30px;
+}
+
+.option_1.act,
+.option_2.act {
+  color: rgba(255, 245, 0, 1);
+}
+
+.option_3 {
+  filter: brightness(0.5);
+}
+
+.value {
+  margin-top: 5px;
+}
+
+.option_3.act {
+  filter: brightness(1.1);
+}
+
+.balance_cont {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}

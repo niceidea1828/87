@@ -1,0 +1,38 @@
+.btn {
+  margin: 70px auto auto;
+}
+
+.shop {
+  margin: 20px auto auto;
+}
+
+.policy {
+  width: 170px;
+  height: 38px;
+
+  position: absolute;
+  left: 20px;
+  top: 20px;
+
+  font-size: 11.86px;
+}
+
+.balance_cont {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.p1 {
+  position: absolute;
+  left: 15px;
+  bottom: -30px;
+  width: 110px;
+}
+
+.p2 {
+  position: absolute;
+  right: 15px;
+  bottom: -30px;
+  width: 110px;
+}

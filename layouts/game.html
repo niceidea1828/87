@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/common_style.css" />
+    <link rel="stylesheet" href="../styles/game.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="warning">Rotate the screen</div>
+
+    <div class="wrapper">
+      <div class="balance_cont b-btn">
+        <img src="../png/coin.png" alt="" />
+        <div class="balance"></div>
+      </div>
+
+      <div class="round b-btn">Раунд 1</div>
+
+      <div class="btn start">СТАРТ</div>
+
+      <div class="modal hidden">
+        <div class="modal_title">YOU WIN</div>
+        <a href="main.html" class="modal_link btn">Home</a>
+        <a href="" class="modal_link btn">Try again</a>
+      </div>
+
+      <a href="main.html" class="b-btn back">Выйти</a>
+
+      <div class="game">
+        <img src="../png/pa.png" alt="" class="p1" />
+        <img src="../png/pd.png" alt="" class="p2" />
+        <img src="../png/ball.png" alt="" class="ball" />
+
+        <div class="score_cont">
+          <span class="score">0</span> : <span class="score">0</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="../scripts/jQuery.js"></script>
+    <script src="../scripts/game.js"></script>
+  </body>
+</html>

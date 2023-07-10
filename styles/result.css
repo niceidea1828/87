@@ -1,0 +1,54 @@
+.result_block {
+  width: 239px;
+  height: 38px;
+
+  padding: 0 15px;
+  margin: 12px auto auto;
+  justify-content: space-between;
+  font-size: 12px;
+
+  position: relative;
+  z-index: 2;
+}
+
+.title {
+  font-size: 25.697px;
+  font-weight: 500;
+  margin: 35px auto auto;
+}
+
+.result {
+  margin: 10px auto auto;
+}
+
+.btns {
+  gap: 25px;
+  margin: 20px auto auto;
+
+  position: relative;
+  z-index: 2;
+}
+
+.link {
+  width: 99px;
+  height: 38px;
+
+  font-size: 12px;
+}
+
+.pic1 {
+  position: absolute;
+  left: -150px;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  z-index: 1;
+
+  width: 440px;
+}
+
+.pic2 {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 1;
+}

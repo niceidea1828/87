@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/common_style.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <a href="bet.html" class="btn">СТАРТ</a>
+      <a href="shop.html" class="b-btn shop">Магазин</a>
+
+      <a href="../index.html" class="b-btn policy">Политика безопасности</a>
+
+      <div class="balance_cont b-btn">
+        <img src="../png/coin.png" alt="" />
+        <div class="balance"></div>
+      </div>
+
+      <img src="../png/p0.png" alt="" class="p1" />
+      <img src="../png/pg.png" alt="" class="p2" />
+    </div>
+
+    <script src="../scripts/jQuery.js"></script>
+    <script>
+      if (!localStorage.balance_b87) {
+        localStorage.balance_b87 = 5000;
+      }
+
+      $(".balance").html(localStorage.balance_b87);
+
+      if (!localStorage.selected_b87) {
+        localStorage.selected_b87 = 0;
+      }
+
+      $(".p1").attr("src", `../png/p${localStorage.selected_b87}.png`);
+    </script>
+  </body>
+</html>

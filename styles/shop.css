@@ -1,0 +1,74 @@
+.back {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+  width: 120px;
+  height: 56px;
+}
+
+.title {
+  margin: 20px auto auto;
+
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.shop {
+  margin: 30px auto 10px;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+  width: 93px;
+}
+
+.card_top {
+  width: 88.161px;
+  height: 180.023px;
+  border: none;
+  border-radius: 20px;
+}
+
+.card_pic {
+  display: block;
+  width: 100%;
+}
+
+.card_btn {
+  width: 99px;
+  height: 38px;
+
+  font-size: 12px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 20px;
+  text-align: center;
+}
+
+.back {
+  top: 10px;
+  left: 20px;
+}
+
+.price {
+  width: 73px;
+  height: 29px;
+
+  border-radius: 14.5px;
+  background: #0f2c0e;
+}
+
+.balance_cont {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
